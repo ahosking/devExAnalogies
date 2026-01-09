@@ -25,9 +25,6 @@ Medical tests show when you're *outside a healthy range*, not targets to optimiz
 **How to Use It:**
 > "Like a blood test, we're looking for a healthy range. We don't want cycle time at zero, we want it in the healthy range for our organization. Too fast, and we're cutting corners. Too slow, and we're blocked."
 
-**From Transcript:**
-> "In health, if you go get a blood test, there's a healthy range. With a lot of these metrics, we tend to view them as like we want absolute reduction in cycle time, but there's very... there's probably a healthy range for cycle time."
-
 **Status:** ✅ Validated with customers
 
 ### 2. 👨‍👩‍👧‍👦 Family Love / Intangibles Analogy
@@ -38,7 +35,7 @@ Use intangibles (like family love) to show why qualitative data matters.
 **How It Applies:**
 Developer experience is "intangible" like love—you can't measure it with pure telemetry, but it's real and measurable through human judgment.
 
-**The Script (From Transcript):**
+**The Script:**
 > "Ask them: How much do you love your family? Give me an objective measure."
 >
 > When they can't: "Exactly. But you know if you love your family. That's qualitative data that matters."
@@ -140,9 +137,6 @@ Just like athletic coaches work on mental performance (confidence, focus, resili
 - Interruptions are cognitive stress
 - Developer experience includes psychological safety, autonomy, mastery
 
-**Real Insight from Transcript:**
-> "In an ideal world, we would be fixing the system and we would also be like the assistant coach on a football team driving the athletic performance of developers... there's a lot of cognitive behavioral, like mental challenges."
-
 **Why It Matters:**
 
 - Legitimizes investment in culture, not just tooling
@@ -233,10 +227,6 @@ Optimizing inputs doesn't guarantee good outputs. In fact, it often backfires.
 
 ### ❌ The Problem: Optimizing Outputs as Inputs
 
-**Real Example from Transcript:**
-
-> "If you lead with 'For this quarter, we really want to drive up PR throughput,' then it's going to be tough."
-
 When you say *"We want more PRs per week,"* here's what happens:
 
 Teams respond by:
@@ -264,9 +254,6 @@ Result: High throughput, low quality, low impact
 > "We want to reduce friction and increase flow through the system. Faster code reviews and deployments make your life better."
 
 **Result:** Teams focus on removing blockers and shipping meaningful work
-
-**From Transcript:**
-> "You can frame it that's a way to measure your output. Another way is if we want to measure the friction and flow through the system to make your life better. So like, those are just two ways to position the same metric that are drastically different."
 
 ### 🔗 Why This Matters: The Chain of Causation
 
@@ -381,9 +368,6 @@ The output numbers look worse, but the outcome is better.
 - **DORA Metrics** — Output-focused (deployment frequency, lead time) vs. outcome-focused (system stability)
 
 ### ✅ Validation
-
-**From Amazon's Approach (mentioned in transcript):**
-> "Amazon does this, they have like input and output metrics is my understanding from the article at least. And if you can frame it that way, I think that it's about what I found is just like, you got to meet execs where they're at."
 
 **Why It Works:**
 
