@@ -9,6 +9,7 @@ Speed = Cadence (RPM) × Power (watts per pedal stroke)
 `
 
 A cyclist can go fast by:
+
 - Spinning fast with moderate power (high cadence, lower power)
 - Pedaling slowly with tremendous force (low cadence, high power)
 - Balancing both (optimal cadence + sufficient power)
@@ -30,6 +31,7 @@ True Productivity = Cycle Time (how fast) × Impact/Quality (how valuable)
 ### ❌ The Problem with Cycle Time Alone
 
 If you optimize **only for cadence** (fast cycle time):
+
 - Teams ship trivial changes constantly
 - PRs get smaller and smaller to reduce review time
 - High throughput, but low impact
@@ -41,6 +43,7 @@ If you optimize **only for cadence** (fast cycle time):
 ### ✅ The Solution: Balance Both Dimensions
 
 You need to measure **and optimize for both**:
+
 - ✅ Reasonable cycle time (not shipping is also bad)
 - ✅ High-impact work (not just high volume)
 - ✅ Code quality (not rushed shipping)
@@ -116,12 +119,28 @@ The Answer: It depends on POWER (impact)
 ## 🎯 When to Use This Analogy
 
 ✅ **Good for:**
+
 - Explaining why single metrics fail
 - Technical audiences who understand metaphors
 - Convincing teams to care about quality alongside speed
 - Reframing conversations away from "lower cycle time at all costs"
 
 ⚠️ **Use with caution:**
+
 - Very senior non-technical executives (might prefer simpler frames)
 - In writing-heavy contexts (better in conversations)
-- When you need quick buy-in (takes a minute to expla
+- When you need quick buy-in (takes a minute to explain)
+
+## 📚 Related Concepts
+
+- **Input vs. Output Metrics** — Cadence is output; actual development work is input
+- **Goodhart's Law** — Optimizing cadence alone is a Goodhart example
+- **Healthy Ranges** — Like blood tests, there's a range, not a target
+- **Portfolio Approach** — Measure multiple dimensions (cadence + power + quality)
+
+**Status:** 🔄 In development - refine with more specific developer examples  
+**Suggested Next Steps:**
+
+- Add real metrics examples from specific organizations
+- Create visual diagrams comparing high-cadence/low-power vs. balanced approaches
+- Develop variations of this analogy for different audiences
