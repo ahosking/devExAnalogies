@@ -1,0 +1,24 @@
+# Analogies content
+analogies:
+  - changed-files:
+    - any-glob-to-any-file: 'analogies/**/*'
+
+# Documentation
+documentation:
+  - changed-files:
+    - any-glob-to-any-file: ['docs/**/*', '*.md']
+
+# Examples or code samples
+examples:
+  - changed-files:
+    - any-glob-to-any-file: 'examples/**/*'
+
+# GitHub/repo maintenance
+repo-maintenance:
+  - changed-files:
+    - any-glob-to-any-file: ['.github/**/*', '.gitignore', 'LICENSE']
+
+# Images/assets
+assets:
+  - changed-files:
+    - any-glob-to-any-file: ['images/**/*', 'assets/**/*', '**/*.png', '**/*.jpg', '**/*.svg']
