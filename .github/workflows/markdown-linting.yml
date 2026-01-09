@@ -9,16 +9,24 @@ on:
       - main
     paths:
       - '**.md'
-
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - uses: actions/checkout@v4
       
-      - name: Run markdownlint
+      - name: Run markdownlint with fix
         uses: DavidAnson/markdownlint-cli2-action@v18
         with:
           globs: '**/*.md'
           config: '.markdownlint.json'
+          fix: true
+      
+      - name: Commit fixes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'fix: auto-fix markdown lint issues'
+          file_pattern: '*.md'

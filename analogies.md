@@ -1,6 +1,7 @@
 # DevEx Analogies
 
-# To Define:
+## To Define
+
 1. Health Analogies
 2. Cycling Analogies
 3. Input vs Output Metrics
