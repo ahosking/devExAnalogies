@@ -67,7 +67,7 @@ Like sports coaches, DevEx leaders should develop *individual performance* along
 - There's no "I" in team, but there IS an "I" in individual (performance)
 - Both matter for overall team success
 
-**Real Quote (from transcript):**
+**Real Quote:**
 > "There's no I in team, but there is an I in individual, which is like, you know, key to performance."
 > — Nick Saban, Alabama football coach
 
