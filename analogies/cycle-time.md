@@ -38,6 +38,7 @@ If you optimize **only for cadence** (fast cycle time):
 - Like spinning your bike wheels fast while stuck in traffic
 
 **Real Example from Transcript:**
+
 > "Cycle time is measuring so many different things and so many different actual different instances in workflows and ways that when an organization just looks at cycle time, I don't think it actually provides a lot of information."
 
 ### ✅ The Solution: Balance Both Dimensions
@@ -49,6 +50,7 @@ You need to measure **and optimize for both**:
 - ✅ Code quality (not rushed shipping)
 
 **Real Example:**
+
 `
 Scenario A: 10 PRs/week, 1 hour cycle time each
 → High cadence, but are they meaningful changes?
@@ -63,23 +65,28 @@ The Answer: It depends on POWER (impact)
 ## 🔧 How to Use This Analogy
 
 ### With Technical Teams
+
 > "We want to measure both how fast we ship AND how impactful those changes are. It's like cycling—speed isn't just cadence, it's cadence times power. If we only optimize for fast shipping, we're like a cyclist spinning at high RPM but going nowhere."
 
 ### With Executives
+
 > "Think of it like a runner. You can increase your speed by running faster (cadence) or by increasing your stride length (power). But if you only focus on running faster, you might sacrifice stride quality. We need to optimize both."
 
 ### When Someone Pushes for "Lower Cycle Time"
+
 > "Cycle time is like cadence—it's part of the picture. But a 1-hour cycle time for a one-line comment is different from a 1-hour cycle time for a major feature. We need to understand what's actually being shipped (power) to know if we're being productive."
 
 ## 📊 Metrics Framework Using This Analogy
 
 ### Cadence Metrics (How Fast)
+
 - PR throughput (PRs per week)
 - Deployment frequency
 - Cycle time (from commit to deploy)
 - Lead time for changes
 
 ### Power Metrics (How Valuable)
+
 - Lines of code changed (hint: not always better)
 - Feature complexity / story points
 - Business impact (revenue, user engagement)
@@ -87,6 +94,7 @@ The Answer: It depends on POWER (impact)
 - Testing coverage
 
 ### Balance Metrics (Both)
+
 - **Velocity** = Throughput × Quality
 - **Impact per cycle** = Changes shipped × Business value
 - **Developer experience score** (time to get feedback, unblocked time)
@@ -96,16 +104,19 @@ The Answer: It depends on POWER (impact)
 ### "But we can't measure power/impact quantitatively"
 
 **Response:**
+
 > "Correct. That's why we combine quantitative metrics (cadence) with qualitative feedback (power). Developers know if they shipped something meaningful or trivial. We ask them directly."
 
 ### "If we optimize for impact, won't cycle time go up?"
 
 **Response:**
+
 > "Maybe temporarily. But the goal isn't to optimize *either one independently*—it's to find the sweet spot where you're shipping meaningful work at a reasonable velocity. Like a cyclist finding their optimal cadence for a sustained hill climb."
 
 ### "How do we benchmark this?"
 
 **Response:**
+
 > "Benchmarking only cadence is dangerous because organizations have different 'power' requirements. A fintech company shipping security updates has different power needs than a social app. Instead, we look at *each organization's* cadence+power ratio over time."
 
 ## 💡 Key Insights
