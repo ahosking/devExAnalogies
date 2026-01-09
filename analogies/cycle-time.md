@@ -1,4 +1,4 @@
-## 🚴 Cycling Analogy: Cadence + Power = Speed
+# 🚴 Cycling Analogy: Cadence + Power = Speed
 
 **The Core Concept:**
 
