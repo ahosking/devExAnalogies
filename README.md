@@ -1,5 +1,11 @@
 # DevEx Analogies
 
+## Analogies Defined
+
+| Analogy | Description |
+|---------|-------------|
+| [Cycling: Cadence + Power = Speed](analogies/cycle-time.md) | Explains why cycle time alone is insufficient - true productivity requires balancing speed (cadence) with impact (power) |
+
 ## To Define
 
 1. Health Analogies
