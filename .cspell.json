@@ -21,7 +21,10 @@
     "GitOps",
     "CI/CD",
     "DORA",
-    "SPACE"
+    "SPACE",
+    "fintech",
+    "Goodheart",
+    "Goodheart's"
   ],
   "ignorePaths": [
     "node_modules",
