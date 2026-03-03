@@ -7,6 +7,7 @@ A collection of health and personal analogies for explaining DevEx concepts to s
 Medical tests show when you're outside a healthy range, not targets to optimize infinitely.
 
 How it applies:
+
 - A blood test doesn't say "minimize cholesterol to zero." It shows normal ranges.
 - Metrics should identify when something is wrong, not be optimized endlessly.
 - Cycle time has a healthy range: too fast means corner-cutting, too slow means blocked.
@@ -22,7 +23,6 @@ Works well with: executives and managers. Reframes metrics as diagnostic tools, 
 Use intangibles to show why qualitative data matters. Developer experience is "intangible" like love. You can't measure it with pure telemetry, but it's real and measurable through human judgment.
 
 > "Ask them: how much do you love your family? Give me an objective measure."
->
 > When they can't: "Exactly. But you know if you love your family. That's qualitative data that matters."
 
 When someone says "we can only trust quantitative data":
@@ -41,7 +41,6 @@ Like sports coaches, DevEx leaders need to develop individual performance alongs
 - Individual developer capability, focus, and cognitive capacity matter too.
 
 > "Like a football coach, we need to fix the system (the playbook, the field, the equipment) and develop individual player capability. Both matter."
-
 > "But there's a limit to how long someone can focus. You can't have a developer in deep work for 8 hours straight. They'll be exhausted after 3. Even with AI helping, we need to respect cognitive capacity."
 
 ---
@@ -87,7 +86,7 @@ Explains how metrics gaming happens. It's not malice, it's incentives. Shows why
 ## When to use each
 
 | Analogy | Best for | Strength | Limitation |
-|---------|----------|----------|------------|
+| ------- | -------- | -------- | ---------- |
 | Blood Test | Executives, managers | Intuitive, prevents infinite optimization | Can oversimplify |
 | Family Love | Data skeptics, quant-focused leaders | Creates "aha moment" on qualitative data | Can feel sentimental |
 | Athletic Coaching | Technical teams, engineers | Resonates with high performers | Needs sports context |

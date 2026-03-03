@@ -3,6 +3,7 @@
 Look, we've all been in that meeting where someone says "we need more PRs!" like they're ordering widgets from a factory. This is for those conversations, when you need to explain why measuring developer productivity isn't like counting hamburgers flipped per hour, and why your engineering team will absolutely game any metric you give them (because they're smart, and that's literally what you pay them to do).
 
 In system design, there's a critical distinction between what goes into a system and what comes out:
+
 - Input metrics: what you control, the work you do
 - Output metrics: the result, what actually happens
 
@@ -11,7 +12,7 @@ Optimizing inputs doesn't guarantee good outputs. In fact, it often backfires.
 ### The developer productivity parallel
 
 | Dimension | Input Metric | Output Metric | What's Wrong |
-|-----------|--------------|---------------|--------------|
+| --------- | ------------ | ------------- | ------------ |
 | Code Shipping | Lines of code written | Business value delivered | Optimizing LOC creates bloat |
 | Pull Requests | Number of PRs created | Impact of those PRs | More PRs isn't better features |
 | Commits | Commit frequency | Working software | Frequent commits isn't progress |
@@ -40,7 +41,7 @@ Result: teams focus on removing blockers and shipping meaningful work.
 
 ### The chain of causation
 
-```
+```text
 Input -> Process -> Output -> Outcome
 Work     Tools     Speed     Value
 Done     Quality   Quality   Shipped
@@ -48,7 +49,7 @@ Done     Quality   Quality   Shipped
 
 We often measure work done (input) and assume it correlates with value (outcome). The correlation is weak without controlling for quality.
 
-```
+```text
 Input:   10 developers wrote code
 Output:  50 PRs merged this week
 Outcome: We shipped 1 bug-ridden feature
@@ -65,6 +66,7 @@ The output numbers look worse, but the outcome is better.
 ### What to measure instead
 
 **Input metrics (what we control):**
+
 - Code quality standards applied
 - Testing coverage written
 - Design review completion
@@ -72,6 +74,7 @@ The output numbers look worse, but the outcome is better.
 - Security scanning run
 
 **Output metrics (what actually happens):**
+
 - Features deployed
 - Defects found in production
 - User engagement metrics
@@ -79,6 +82,7 @@ The output numbers look worse, but the outcome is better.
 - Customer satisfaction
 
 **Outcome metrics (the real goal):**
+
 - Revenue impact
 - User adoption
 - System reliability

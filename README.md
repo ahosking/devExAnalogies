@@ -7,7 +7,7 @@ The goal is practical: these are conversation tools for when someone says "we ne
 ## Analogies
 
 | Analogy | Description |
-|---------|-------------|
+| ------- | ----------- |
 | [Cycling: Cadence + Power = Speed](analogies/cycle-time.md) | Why cycle time alone is insufficient. True productivity requires balancing speed (cadence) with impact (power). |
 | [Input vs. Output Metrics](analogies/input-output-metrics.md) | The difference between activity (inputs) and outcomes (outputs). Why measuring the wrong thing backfires. |
 | [Health and Family Analogies](analogies/health.md) | A collection of health analogies for reframing metrics as diagnostic tools rather than targets. Includes the family love framing for qualitative data. |

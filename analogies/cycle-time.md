@@ -2,7 +2,7 @@
 
 In cycling, speed comes from two independent variables:
 
-```
+```text
 Speed = Cadence (RPM) x Power (watts per pedal stroke)
 ```
 
@@ -10,12 +10,12 @@ A cyclist can go fast by spinning fast with moderate power, pedaling slowly with
 
 **The developer productivity parallel:**
 
-```
+```text
 True Productivity = Cycle Time (how fast) x Impact/Quality (how valuable)
 ```
 
 | Metric | Cycling Term | Developer Equivalent | What It Measures |
-|--------|--------------|----------------------|------------------|
+| ------ | ------------ | -------------------- | ---------------- |
 | Cadence | RPM | Cycle Time / Throughput | How frequently code ships |
 | Power | Watts per pedal stroke | Impact, Quality, Complexity | How meaningful the work is |
 | Speed | MPH | True Productivity | Actual value delivered |
@@ -34,7 +34,7 @@ You need both:
 - High-impact work, not just high volume
 - Code quality, not rushed shipping
 
-```
+```text
 Scenario A: 10 PRs/week, 1 hour cycle time each
 -> High cadence. But are they meaningful changes?
 
@@ -58,31 +58,37 @@ It depends on impact. If B's PRs have 5x the business impact, B wins.
 ## Metrics
 
 **Cadence (how fast):**
+
 - PR throughput
 - Deployment frequency
 - Cycle time (commit to deploy)
 - Lead time for changes
 
 **Power (how valuable):**
+
 - Feature complexity
 - Business impact (revenue, user engagement)
 - Code quality and defect rate
 - Testing coverage
 
 **Balance (both):**
+
 - Velocity = throughput x quality
 - Impact per cycle = changes shipped x business value
 - Developer experience score (time to get feedback, unblocked time)
 
 ## Common objections
 
-**"We can't measure power or impact quantitatively"**
+### "We can't measure power or impact quantitatively"
+
 > "Correct. That's why we combine quantitative metrics (cadence) with qualitative feedback (power). Developers know if they shipped something meaningful or trivial. We ask them directly."
 
-**"If we optimize for impact, won't cycle time go up?"**
+### "If we optimize for impact, won't cycle time go up?"
+
 > "Maybe temporarily. The goal isn't to optimize either one independently. It's to find the sweet spot where you're shipping meaningful work at a reasonable velocity. Like a cyclist finding their optimal cadence for a sustained hill climb."
 
-**"How do we benchmark this?"**
+### "How do we benchmark this?"
+
 > "Benchmarking only cadence is dangerous because organizations have different power requirements. A fintech company shipping security updates has different needs than a social app. Look at each organization's cadence+power ratio over time, not against an industry number."
 
 ## Key points
@@ -96,12 +102,14 @@ It depends on impact. If B's PRs have 5x the business impact, B wins.
 ## When to use this
 
 Works well:
+
 - Explaining why single metrics fail
 - Talking with technical audiences who respond to metaphors
 - Convincing teams to care about quality alongside speed
 - Reframing away from "lower cycle time at all costs"
 
 Use with caution:
+
 - Very senior non-technical executives (might prefer simpler frames)
 - When you need quick buy-in (takes a few minutes to explain well)
 
