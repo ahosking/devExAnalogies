@@ -1,382 +1,135 @@
-## 🏥 Health & Family Analogies (Comprehensive Collection)
+## Input vs. Output Metrics
 
-Look, we've all been in that meeting where someone says "we need more PRs!" like they're ordering widgets from a factory. This is for those conversations—when you need to explain why measuring developer productivity isn't like counting hamburgers flipped per hour, and why your engineering team will absolutely game any metric you give them (because they're smart, and that's literally what you pay them to do).
-Think of this as the "but actually, no" guide to productivity metrics. Because if measuring family love taught us anything, it's that the most important things are often the hardest to quantify. and that's okay.
-
-This is a curated collection of health and personal analogies used to explain DevEx concepts to skeptical audiences.
-
-### 1. 🩸 Blood Test / Healthy Ranges Analogy
-
-**The Concept:**
-Medical tests show when you're *outside a healthy range*, not targets to optimize infinitely.
-
-**How It Applies to Metrics:**
-
-- A blood test doesn't say "minimize cholesterol to zero"—it shows normal ranges
-- Metrics should identify when something is *wrong*, not be optimized endlessly
-- Cycle time has a healthy range: too fast (corner-cutting) or too slow (blocked)
-
-**Why It Works:**
-
-- Executives understand health analogies instinctively
-- Reframes metrics as diagnostic tools, not scorecards
-- Prevents the "make the number go down forever" mentality
-
-**How to Use It:**
-> "Like a blood test, we're looking for a healthy range. We don't want cycle time at zero, we want it in the healthy range for our organization. Too fast, and we're cutting corners. Too slow, and we're blocked."
-
-**Status:** ✅ Validated with customers
-
-### 2. 👨‍👩‍👧‍👦 Family Love / Intangibles Analogy
-
-**The Concept:**
-Use intangibles (like family love) to show why qualitative data matters.
-
-**How It Applies:**
-Developer experience is "intangible" like love—you can't measure it with pure telemetry, but it's real and measurable through human judgment.
-
-**The Script:**
-> "Ask them: How much do you love your family? Give me an objective measure."
->
-> When they can't: "Exactly. But you know if you love your family. That's qualitative data that matters."
-
-**Why It Works:**
-
-- Makes the point viscerally (people can't measure love objectively)
-- Shows that absence of objective measurement ≠ unmeasurable
-- Creates "aha moment" about qualitative metrics
-
-**How to Use It:**
-When someone says: *"We can only trust quantitative data"*
-
-> "How much do you love your family? Give me an objective measure. You can't, but you know it's real. Developer experience is similar—we measure it through human assessment, not just computers."
-
-**Status:** ✅ Proven persuasion technique
-
-### 3. 🏋️ Athletic Performance / Coaching Analogy
-
-**The Concept:**
-Like sports coaches, DevEx leaders should develop *individual performance* alongside system performance.
-
-**How It Applies:**
-
-- Coaches work on team dynamics AND individual athlete development
-- There's no "I" in team, but there IS an "I" in individual (performance)
-- Both matter for overall team success
-
-**Real Quote:**
-> "There's no I in team, but there is an I in individual, which is like, you know, key to performance."
-> — Nick Saban, Alabama football coach
-
-**Why It Matters:**
-
-- Acknowledges that system improvements alone aren't enough
-- Individual developer capability, focus, and cognitive capacity matter
-- Legitimizes investment in developer growth (not just tools)
-
-**How to Use It:**
-> "Like a football coach, we need to fix the system (the playbook, the field, the equipment) AND develop individual player capability. Both matter."
-
-**Extended Insight:**
-> "But there's a limit to how long someone can focus. You can't have a developer in deep work for 8 hours straight—they'll be exhausted after 3. Even with AI helping, we need to respect cognitive capacity."
-
-**Status:** ✅ Validated approach
-
-### 4. 🚴 Peak Fitness / Knowledge Work Analogy
-
-**The Concept:**
-Knowledge work productivity is like athletic fitness—there are natural limits to cognitive capacity.
-
-**How It Applies:**
-
-- You can't run at max speed forever; athletes need recovery
-- Developers have cognitive limits; they can't code intensely all day
-- Removing friction helps, but doesn't remove biological limits
-
-**Why It Matters:**
-
-- Explains why developer productivity has limits (even with AI)
-- Shows that "just work harder" isn't the answer
-- Legitimizes breaks, deep work blocks, context switching costs
-
-**How to Use It:**
-> "Developers are like athletes. You can't expect 8 hours of continuous intense coding. After 3 hours of deep work, cognitive capacity drops. Removing interruptions and friction helps, but we can't ignore biological limits."
-
-**Status:** 🔄 Still evolving - needs more specific examples
-
-### 5. 🎯 Health Checkup / Metrics Portfolio Approach
-
-**The Concept:**
-A comprehensive health checkup doesn't rely on one number (like weight alone), it uses multiple indicators.
-
-**How It Applies:**
-
-- Blood pressure, cholesterol, glucose, heart rate all matter
-- Singular focus on one metric is like obsessing over weight
-- Developers need multiple dimensions measured (speed, quality, impact, experience)
-
-**Why It Works:**
-
-- Explains why a portfolio of metrics is better than single metrics
-- Shows that cherry-picking one metric is like cherry-picking one vital sign
-- Prevents gaming (hard to game multiple dimensions simultaneously)
-
-**How to Use It:**
-> "A doctor doesn't judge your health on one number. They look at blood pressure, cholesterol, heart rate, glucose. Same with productivity—we need multiple indicators, not just cycle time."
-
-**Status:** ✅ Solid analogy, needs formalization
-
-### 6. 🧠 Cognitive Behavioral Performance / Peak Performance Coaching
-
-**The Concept:**
-Just like athletic coaches work on mental performance (confidence, focus, resilience), DevEx leaders should address cognitive challenges.
-
-**How It Applies:**
-
-- Deep work is cognitive performance
-- Interruptions are cognitive stress
-- Developer experience includes psychological safety, autonomy, mastery
-
-**Why It Matters:**
-
-- Legitimizes investment in culture, not just tooling
-- Acknowledges human factors in productivity
-- Expands "developer productivity" beyond metrics
-
-**Status:** 🔄 In development - needs more concrete examples
-
-### 7. 📋 Health Insurance Models / Incentive Structures
-
-**The Concept:**
-Bad incentive structures are like broken health insurance—they reward the wrong behaviors.
-
-**How It Applies:**
-
-- If you incentivize surgeries per doctor, they'll recommend unnecessary surgeries
-- If you incentivize PRs per developer, they'll create trivial PRs
-- Incentive structure determines behavior, not good intentions
-
-**Why It Matters:**
-
-- Explains how metrics gaming happens (it's not malice, it's incentives)
-- Shows why framing and messaging matter from day one
-- Warns about long-term damage from bad metric choices
-
-**Status:** 🔄 Emerging analogy
-
-## 🗂️ Summary Table: When to Use Each Analogy
-
-| Analogy | Best Audience | Strength | Limitation |
-| --------- | --------------- | ---------- | ----------- |
-| **Blood Test** | Executives, managers | Intuitive, prevents infinite optimization | Might oversimplify |
-| **Family Love** | Data-skeptics, quant-focused folks | Creates "aha moment" on qualitative data | Can feel sentimental |
-| **Athletic Coaching** | Technical teams, engineers | Resonates with high performers | Need sports context |
-| **Peak Fitness** | Anyone discussing cognitive limits | Biological reality argument | Less relevant for non-knowledge work |
-| **Health Checkup** | Metric portfolio discussions | Comprehensive framing | Takes longer to explain |
-| **Cognitive Performance** | Culture/leadership discussions | Expands conversation beyond tools | Requires psychological context |
-| **Health Insurance** | Incentive structure discussions | Explains gaming naturally | Can be politicized |
-
-## 🚨 Key Insights Across All Analogies
-
-1. **Health analogies resonate** — Executives understand medicine better than software metrics
-2. **Normalize qualitative data** — Family/love example shifts thinking about "soft" data
-3. **Biological limits matter** — Peak fitness shows why infinite productivity is impossible
-4. **Incentives drive behavior** — Structure determines outcomes, not intent
-5. **Portfolio approach is medical** — Multiple vital signs, not one number
-
-## 📖 Recommended Reading
-
-- **"How to Measure Anything"** by Douglas Hubbard — On measuring intangibles (book that inspired DX thinking)
-- **DORA Metrics research** — On finding the right measures
-- **Sports psychology literature** — On peak performance and cognitive limits
-
-## 🔄 Next Steps
-
-- [ ] Collect more specific health analogies from customer conversations
-- [ ] Create visual comparisons (metric health vs. actual health)
-- [ ] Develop scripts for each analogy with common objections
-- [ ] Test fitness/cognitive capacity analogy more broadly
-- [ ] Link health analogies to specific objections/resistance patterns
-
-**Last Updated:** January 9, 2026  
-**Status:** 🔄 Evolving collection - add more analogies as discovered  
-**Note:** Speaker 74 mentioned these are "still evolving" and they're "still trying to find the right way to deliver these messages"
-
-## 💡 Input vs. Output Metrics
-
-## 📤 Input vs. Output Metrics Framework
-
-**The Core Concept:**
+Look, we've all been in that meeting where someone says "we need more PRs!" like they're ordering widgets from a factory. This is for those conversations, when you need to explain why measuring developer productivity isn't like counting hamburgers flipped per hour, and why your engineering team will absolutely game any metric you give them (because they're smart, and that's literally what you pay them to do).
 
 In system design, there's a critical distinction between what goes into a system and what comes out:
-
-Input Metrics = What you control / The work you do
-Output Metrics = The result / What actually happens
+- Input metrics: what you control, the work you do
+- Output metrics: the result, what actually happens
 
 Optimizing inputs doesn't guarantee good outputs. In fact, it often backfires.
 
-### 🎯 The Developer Productivity Parallel
+### The developer productivity parallel
 
-| Dimension | Input Metric | Output Metric | What's Wrong? |
-| ----------- | -------------- | --------------- | --------------- |
-| **Code Shipping** | Lines of code written | Business value delivered | Optimizing LOC creates bloat |
-| **Pull Requests** | # of PRs created | Impact of those PRs | More PRs ≠ better features |
-| **Commits** | Commit frequency | Working software | Frequent commits ≠ progress |
-| **Hours Worked** | Time at desk | Quality of output | Long hours ≠ productivity |
-| **Meetings Attended** | # of meetings | Decisions made | More meetings ≠ better decisions |
+| Dimension | Input Metric | Output Metric | What's Wrong |
+|-----------|--------------|---------------|--------------|
+| Code Shipping | Lines of code written | Business value delivered | Optimizing LOC creates bloat |
+| Pull Requests | Number of PRs created | Impact of those PRs | More PRs isn't better features |
+| Commits | Commit frequency | Working software | Frequent commits isn't progress |
+| Hours Worked | Time at desk | Quality of output | Long hours isn't productivity |
+| Meetings Attended | Number of meetings | Decisions made | More meetings isn't better decisions |
 
-### ❌ The Problem: Optimizing Outputs as Inputs
+### The problem: optimizing outputs as inputs
 
-When you say *"We want more PRs per week,"* here's what happens:
+When you say "we want more PRs per week," here's what happens:
 
-Teams respond by:
-✗ Creating more, smaller PRs (gaming the metric)
-✗ Splitting logical changes into multiple PRs
-✗ Merging low-quality code faster
-✗ Skipping code review rigor
+Teams respond by creating more, smaller PRs. They split logical changes across multiple PRs. They merge low-quality code faster. They skip code review rigor.
 
-Result: High throughput, low quality, low impact
+Result: high throughput, low quality, low impact.
 
-### ✅ The Solution: Frame Outputs as Desired Outcomes
+### The solution: frame outputs as desired outcomes
 
-**Two Framings of the Same Metric:**
-
-#### ❌ Input Framing (Wrong)
-
->
+**Wrong (input framing):**
 > "We want to increase PR throughput. Teams should be merging more PRs per week."
 
-**Result:** Teams game it by creating trivial PRs
+Result: teams game it by creating trivial PRs.
 
-#### ✅ Output Framing (Right)
-
->
+**Right (output framing):**
 > "We want to reduce friction and increase flow through the system. Faster code reviews and deployments make your life better."
 
-**Result:** Teams focus on removing blockers and shipping meaningful work
+Result: teams focus on removing blockers and shipping meaningful work.
 
-### 🔗 Why This Matters: The Chain of Causation
+### The chain of causation
 
-Input → Process → Output → Outcome
- ↓         ↓        ↓        ↓
-Work     Tools    Speed     Value
-Done    Quality  Quality   Shipped
+```
+Input -> Process -> Output -> Outcome
+Work     Tools     Speed     Value
+Done     Quality   Quality   Shipped
+```
 
-Problem: We often measure Work Done (input)
-         and assume it correlates with Value (outcome)
+We often measure work done (input) and assume it correlates with value (outcome). The correlation is weak without controlling for quality.
 
-Reality: The correlation is weak without controlling for quality
-
-**Example:**
-
-Input: "10 developers wrote code"
-Output: "50 PRs merged this week"
-Outcome: "We shipped 1 bug-ridden feature"
+```
+Input:   10 developers wrote code
+Output:  50 PRs merged this week
+Outcome: We shipped 1 bug-ridden feature
 
 vs.
 
-Input: "10 developers focused on 1 critical feature"
-Output: "5 PRs merged after thorough review"
-Outcome: "We shipped 1 solid feature customers love"
+Input:   10 developers focused on 1 critical feature
+Output:  5 PRs merged after thorough review
+Outcome: We shipped 1 solid feature customers love
+```
 
 The output numbers look worse, but the outcome is better.
 
-### 📊 What to Measure Instead
+### What to measure instead
 
-#### Input Metrics (What We Control)
-
+**Input metrics (what we control):**
 - Code quality standards applied
 - Testing coverage written
 - Design review completion
 - Architectural decisions made
 - Security scanning run
 
-#### Output Metrics (What Actually Happens)
-
+**Output metrics (what actually happens):**
 - Features deployed
 - Defects found in production
 - User engagement metrics
 - Performance improvements
 - Customer satisfaction
 
-#### Outcome Metrics (The Real Goal)
-
+**Outcome metrics (the real goal):**
 - Revenue impact
 - User adoption
 - System reliability
 - Developer satisfaction
 - Time-to-value
 
-### 🚨 Common Input vs. Output Mistakes
+### Common mistakes
 
-#### Mistake #1: Lines of Code (LOC)
+**Lines of code:**
+Wrong: "Developers wrote 10,000 lines of code."
+Right: "We deleted 2,000 lines of legacy code and improved maintainability."
 
-**Input framing (wrong):** "Developers wrote 10,000 lines of code"
-**Output framing (right):** "We deleted 2,000 lines of legacy code and improved maintainability"
+**Meeting attendance:**
+Wrong: "100% of developers attended standup."
+Right: "Teams feel aligned and unblocked."
 
-#### Mistake #2: Meeting Attendance
+**Commit frequency:**
+Wrong: "Developers averaged 5 commits per day."
+Right: "Code changes are reviewed and tested before merging."
 
-**Input framing (wrong):** "100% of developers attended standup"
-**Output framing (right):** "Teams feel aligned and unblocked"
+**Story points:**
+Wrong: "Team completed 50 story points this sprint."
+Right: "Team delivered features that users are actually using."
 
-#### Mistake #3: Commit Frequency
+### The mental shift
 
-**Input framing (wrong):** "Developers averaged 5 commits per day"
-**Output framing (right):** "Code changes are reviewed and tested before merging"
+Common leadership thinking: if developers work harder (input), they'll be more productive (output).
 
-#### Mistake #4: Story Points Completed
+Reality: if we remove friction and improve flow (output), developers will naturally do better work.
 
-**Input framing (wrong):** "Team completed 50 story points this sprint"
-**Output framing (right):** "Team delivered features that users are actually using"
+- Input focus pushes harder on developers. This leads to burnout, gaming, and quality drops.
+- Output focus improves the system. This is sustainable and quality-driven.
 
-### 💭 The Mental Shift
+## Using this framework
 
-**Common Leadership Thinking:**
-> "If developers work harder (input), they'll be more productive (output)"
+**When someone says "we need more PRs per week":**
+> "That's an input target. Let's think about outputs instead: do we want faster code reviews? Fewer blockers? Better collaboration? Those are outputs. Increased PR count might happen as a side effect, but it's not the goal."
 
-**Reality:**
-> "If we remove friction and improve flow (output), developers will naturally do better work"
+**When setting OKRs:**
+> "Let's frame this as an output: 'Reduce time from code review to production,' instead of an input: 'Merge 20% more PRs.'"
 
-**The Difference:**
-
-- Input focus: Pushes harder on developers (burnout, gaming, quality drops)
-- Output focus: Improves the system (sustainable, quality driven)
-
-### 🎯 How to Use This Framework
-
-#### When Someone Says: "We need more PRs per week"
->
-> "That's an input target. Let's think about outputs instead: Do we want faster code reviews? Fewer blockers? Better collaboration? Those are outputs. Increased PR count might happen as a side effect, but it's not the goal."
-
-#### When Setting OKRs
->
-> "Let's frame this as an output: 'Reduce time from code review to production' instead of an input: 'Merge 20% more PRs.'"
-
-#### When Defending Qualitative Work
->
+**When defending qualitative work:**
 > "Code refactoring isn't measured as an output (PRs merged), but it's critical output (technical debt reduction). Some of our most valuable work doesn't look like high throughput."
 
-#### When Explaining to Executives
->
-> "Think of a restaurant. The input is: How long does a chef spend cooking? The output is: How many meals served? The outcome is: How many customers come back? We want to optimize outcome, which requires managing outputs, not just maximizing inputs."
+**When explaining to executives:**
+> "Think of a restaurant. The input is: how long does a chef spend cooking? The output is: how many meals served? The outcome is: how many customers come back? We want to optimize outcome, which requires managing outputs, not just maximizing inputs."
 
-### 📚 Related Frameworks
+## Related
 
-- **Goodhart's Law** — When you measure the wrong thing, it stops being useful
-- **Input vs. Output vs. Outcome** — Three levels of measurement
-- **Leading vs. Lagging Indicators** — Inputs are leading, outcomes are lagging
-- **DORA Metrics** — Output-focused (deployment frequency, lead time) vs. outcome-focused (system stability)
-
-### ✅ Validation
-
-**Why It Works:**
-
-- Executives already use this thinking in business ("revenue" vs. "hours worked")
-- Naturally prevents metric gaming
-- Aligns individual effort with organizational outcomes
-- Sustainable long-term
-
-### 🔄 Implementation Path
-
-1. **Audit existing metrics** — Classify each as input, output, or outcome
-2. **Identify dangerous inputs** — Which are being optimized for and gamed
+- Goodhart's Law: when you measure the wrong thing, it stops being useful
+- Leading vs. Lagging Indicators: inputs are leading, outcomes are lagging
+- DORA Metrics: output-focused (deployment frequency, lead time) vs. outcome-focused (system stability)
+- [Cycling Analogy](cycle-time.md): cadence as an output metric
+- [Health Analogies](health.md): healthy ranges vs. targets to minimize

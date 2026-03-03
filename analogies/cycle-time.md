@@ -1,157 +1,112 @@
-## 🚴 Cycling Analogy: Cadence + Power = Speed
+## Cycling Analogy: Cadence + Power = Speed
 
-**The Core Concept:**
+In cycling, speed comes from two independent variables:
 
-In cycling, your speed is the product of two independent variables:
+```
+Speed = Cadence (RPM) x Power (watts per pedal stroke)
+```
 
-`
-Speed = Cadence (RPM) × Power (watts per pedal stroke)
-`
+A cyclist can go fast by spinning fast with moderate power, pedaling slowly with tremendous force, or finding the balance between the two. None of these is inherently right. It depends on context.
 
-A cyclist can go fast by:
+**The developer productivity parallel:**
 
-- Spinning fast with moderate power (high cadence, lower power)
-- Pedaling slowly with tremendous force (low cadence, high power)
-- Balancing both (optimal cadence + sufficient power)
-
-**The Developer Productivity Parallel:**
-
-`
-True Productivity = Cycle Time (how fast) × Impact/Quality (how valuable)
-`
+```
+True Productivity = Cycle Time (how fast) x Impact/Quality (how valuable)
+```
 
 | Metric | Cycling Term | Developer Equivalent | What It Measures |
 |--------|--------------|----------------------|------------------|
-| **Cadence** | RPM (revolutions per minute) | Cycle Time / Throughput | How *frequently* code ships |
-| **Power** | Watts per pedal stroke | Impact, Quality, Complexity | How *meaningful* the work is |
-| **Speed** | MPH (miles per hour) | True Productivity | Actual value delivered |
+| Cadence | RPM | Cycle Time / Throughput | How frequently code ships |
+| Power | Watts per pedal stroke | Impact, Quality, Complexity | How meaningful the work is |
+| Speed | MPH | True Productivity | Actual value delivered |
 
-**Why This Matters:**
+### The problem with cycle time alone
 
-### ❌ The Problem with Cycle Time Alone
-
-If you optimize **only for cadence** (fast cycle time):
-
-- Teams ship trivial changes constantly
-- PRs get smaller and smaller to reduce review time
-- High throughput, but low impact
-- Like spinning your bike wheels fast while stuck in traffic
-
-**Real Example from Transcript:**
+If you optimize only for cadence, teams start shipping trivial changes constantly. PRs get smaller and smaller to reduce review time. Throughput goes up while impact goes down. It's like spinning your bike wheels fast while stuck in traffic.
 
 > "Cycle time is measuring so many different things and so many different actual different instances in workflows and ways that when an organization just looks at cycle time, I don't think it actually provides a lot of information."
 
-### ✅ The Solution: Balance Both Dimensions
+### What to actually optimize for
 
-You need to measure **and optimize for both**:
+You need both:
 
-- ✅ Reasonable cycle time (not shipping is also bad)
-- ✅ High-impact work (not just high volume)
-- ✅ Code quality (not rushed shipping)
+- Reasonable cycle time (not shipping is also bad)
+- High-impact work, not just high volume
+- Code quality, not rushed shipping
 
-**Real Example:**
-
-`
+```
 Scenario A: 10 PRs/week, 1 hour cycle time each
-→ High cadence, but are they meaningful changes?
+-> High cadence. But are they meaningful changes?
 
 Scenario B: 2 PRs/week, 8 hours cycle time each
-→ Lower cadence, but more substantial features?
+-> Lower cadence. But more substantial features?
 
-The Answer: It depends on POWER (impact)
-→ If B's PRs have 5x the business impact, B wins
-`
+It depends on impact. If B's PRs have 5x the business impact, B wins.
+```
 
-## 🔧 How to Use This Analogy
+## Using this analogy
 
-### With Technical Teams
+**With technical teams:**
+> "We want to measure both how fast we ship and how impactful those changes are. It's like cycling: speed isn't just cadence, it's cadence times power. If we only optimize for fast shipping, we're like a cyclist spinning at high RPM but going nowhere."
 
-> "We want to measure both how fast we ship AND how impactful those changes are. It's like cycling—speed isn't just cadence, it's cadence times power. If we only optimize for fast shipping, we're like a cyclist spinning at high RPM but going nowhere."
+**With executives:**
+> "Think of it like a runner. You can increase speed by running faster (cadence) or by increasing stride length (power). Focusing only on running faster might sacrifice stride quality. We need to optimize both."
 
-### With Executives
+**When someone pushes for lower cycle time:**
+> "Cycle time is like cadence: part of the picture. But a 1-hour cycle time for a one-line comment is different from a 1-hour cycle time for a major feature. We need to understand what's actually being shipped to know if we're being productive."
 
-> "Think of it like a runner. You can increase your speed by running faster (cadence) or by increasing your stride length (power). But if you only focus on running faster, you might sacrifice stride quality. We need to optimize both."
+## Metrics
 
-### When Someone Pushes for "Lower Cycle Time"
-
-> "Cycle time is like cadence—it's part of the picture. But a 1-hour cycle time for a one-line comment is different from a 1-hour cycle time for a major feature. We need to understand what's actually being shipped (power) to know if we're being productive."
-
-## 📊 Metrics Framework Using This Analogy
-
-### Cadence Metrics (How Fast)
-
-- PR throughput (PRs per week)
+**Cadence (how fast):**
+- PR throughput
 - Deployment frequency
-- Cycle time (from commit to deploy)
+- Cycle time (commit to deploy)
 - Lead time for changes
 
-### Power Metrics (How Valuable)
-
-- Lines of code changed (hint: not always better)
-- Feature complexity / story points
+**Power (how valuable):**
+- Feature complexity
 - Business impact (revenue, user engagement)
-- Code quality / defect rate
+- Code quality and defect rate
 - Testing coverage
 
-### Balance Metrics (Both)
+**Balance (both):**
+- Velocity = throughput x quality
+- Impact per cycle = changes shipped x business value
+- Developer experience score (time to get feedback, unblocked time)
 
-- **Velocity** = Throughput × Quality
-- **Impact per cycle** = Changes shipped × Business value
-- **Developer experience score** (time to get feedback, unblocked time)
+## Common objections
 
-## 🚨 Common Objections & Responses
-
-### "But we can't measure power/impact quantitatively"
-
-**Response:**
-
+**"We can't measure power or impact quantitatively"**
 > "Correct. That's why we combine quantitative metrics (cadence) with qualitative feedback (power). Developers know if they shipped something meaningful or trivial. We ask them directly."
 
-### "If we optimize for impact, won't cycle time go up?"
+**"If we optimize for impact, won't cycle time go up?"**
+> "Maybe temporarily. The goal isn't to optimize either one independently. It's to find the sweet spot where you're shipping meaningful work at a reasonable velocity. Like a cyclist finding their optimal cadence for a sustained hill climb."
 
-**Response:**
+**"How do we benchmark this?"**
+> "Benchmarking only cadence is dangerous because organizations have different power requirements. A fintech company shipping security updates has different needs than a social app. Look at each organization's cadence+power ratio over time, not against an industry number."
 
-> "Maybe temporarily. But the goal isn't to optimize *either one independently*—it's to find the sweet spot where you're shipping meaningful work at a reasonable velocity. Like a cyclist finding their optimal cadence for a sustained hill climb."
+## Key points
 
-### "How do we benchmark this?"
+1. It's not either/or. You need both metrics.
+2. Context matters. Different teams may have different optimal balances.
+3. Optimizing for both simultaneously is much harder to game.
+4. Like cycling, there's a healthy zone, not a number to minimize forever.
+5. Frame it as "shipping meaningful work faster," not "ship more code."
 
-**Response:**
+## When to use this
 
-> "Benchmarking only cadence is dangerous because organizations have different 'power' requirements. A fintech company shipping security updates has different power needs than a social app. Instead, we look at *each organization's* cadence+power ratio over time."
-
-## 💡 Key Insights
-
-1. **It's not either/or** — You need both metrics, not choosing one
-2. **Context matters** — Different teams may have different optimal balances
-3. **Gaming prevention** — Optimizing for both simultaneously is much harder to game
-4. **Health ranges exist** — Like cycling, there's an optimal zone (not infinite speed)
-5. **Messaging is everything** — Frame as "shipping meaningful work faster" not "ship more code"
-
-## 🎯 When to Use This Analogy
-
-✅ **Good for:**
-
+Works well:
 - Explaining why single metrics fail
-- Technical audiences who understand metaphors
+- Talking with technical audiences who respond to metaphors
 - Convincing teams to care about quality alongside speed
-- Reframing conversations away from "lower cycle time at all costs"
+- Reframing away from "lower cycle time at all costs"
 
-⚠️ **Use with caution:**
-
+Use with caution:
 - Very senior non-technical executives (might prefer simpler frames)
-- In writing-heavy contexts (better in conversations)
-- When you need quick buy-in (takes a minute to explain)
+- When you need quick buy-in (takes a few minutes to explain well)
 
-## 📚 Related Concepts
+## Related
 
-- **Input vs. Output Metrics** — Cadence is output; actual development work is input
-- **Goodhart's Law** — Optimizing cadence alone is a Goodhart example
-- **Healthy Ranges** — Like blood tests, there's a range, not a target
-- **Portfolio Approach** — Measure multiple dimensions (cadence + power + quality)
-
-**Status:** 🔄 In development - refine with more specific developer examples  
-**Suggested Next Steps:**
-
-- Add real metrics examples from specific organizations
-- Create visual diagrams comparing high-cadence/low-power vs. balanced approaches
-- Develop variations of this analogy for different audiences
+- [Input vs. Output Metrics](input-output-metrics.md): cadence is an output metric; actual development work is input
+- Goodhart's Law: optimizing cadence alone is a textbook example
+- [Health Analogies](health.md): like blood tests, metrics have healthy ranges, not infinite targets
